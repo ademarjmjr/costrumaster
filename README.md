@@ -19,4 +19,4 @@
 
 1. **Clone o repositório**  
    ```sh
-   git clone https://github.com/ademarjmjr/Construmaster-PVH.git
+   https://github.com/ademarjmjr/costrumaster.git
