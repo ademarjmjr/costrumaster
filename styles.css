@@ -152,7 +152,8 @@ footer p {
     }
 
     nav ul li {
-        display: block;
+        display: flex;
         margin: var(--espacamento) 0;
     }
+
 }
