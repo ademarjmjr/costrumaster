@@ -149,11 +149,17 @@ footer p {
 
     header {
         padding: var(--espacamento);
+        justify-content: center;
     }
 
     nav ul li {
         display: flex;
+        justify-content: center;
         margin: var(--espacamento) 0;
+    }
+
+    a {
+        width: 100%;
     }
 
 }
