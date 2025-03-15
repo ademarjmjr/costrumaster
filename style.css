@@ -65,7 +65,7 @@ nav ul li a {
 }
 
 .conteudo h1 {
-    font-size: 7vw;
+    font-size: 9vw;
 }
 
 .btn {
@@ -81,9 +81,56 @@ nav ul li a {
     z-index: 1;
 }
 
-section {
-    /*padding: 50px 20px;*/
+#sobre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
+}
+
+.centralizar-sobre {
+    width: 60%;
+    background-color: #d0d0d0;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+#depoimentos {
+    width: 100%; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+.centralizar-depoimentos{
+    width: 60%;
+    background-color: #d0d0d0;
+    border-radius: 15px;
+}
+
+#contato {
+    width: 100%; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+.centalizar-contato {
+    width: 60%;
+}
+
+p {
+    font-size: 20px;
+    margin: 2%;
 }
 
 ul {
