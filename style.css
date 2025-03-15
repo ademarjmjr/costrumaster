@@ -91,38 +91,80 @@ ul {
     padding: 0;
 }
 
-form {
-    max-width: 400px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background: #333;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background: #555;
-}
-
 footer {
     background: #222;
     color: #fff;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #07ee07;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    box-shadow: 0px 5px 5px 0px #00000038;
+    border: 1px solid rgb(120, 163, 112);
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebc5c;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        font-size: 14px;
+        background-color: #d0d0d0;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+
+    #sobre {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .centralizar-sobre {
+        width: 80%;
+    }
+
+    #depoimentos {
+        width: 100%; 
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 3%;
+    }
+
+    .centralizar-depoimentos{
+        width: 80%;
+    }
+
+    #contato {
+        width: 100%; 
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+        margin: 0;
+        padding-bottom: 3%;
+    }
+
+    .centalizar-contato {
+        width: 80%;
+    }
 }
