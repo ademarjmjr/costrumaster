@@ -375,8 +375,8 @@ footer {
 
 @media (max-width: 450px) {
 
-    #contato {
-        width: 90%;
+    #sobre #depoimentos #contato {
+        width: 86%;
     }
 }
 
