@@ -11,32 +11,57 @@ body {
 
 
 header {
-    background: linear-gradient(to right, #243447, #0e1724); /* Azul escuro degradê */
+    background: linear-gradient(to right, #243447, #0e1724);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
 }
 
 header h1 {
     color: #ffffff;
     font-size: 24px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
-nav ul {
+/* Navegação */
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Ícone do menu mobile */
+.menu-icon {
+    display: none;
+    font-size: 26px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Menu padrão */
+.menu {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 15px;
+
 }
 
-nav ul li {
+.menu li {
     margin-right: 20px;
 }
 
-nav ul li a {
+.menu li a {
     text-decoration: none;
     color: #ffffff;
     font-size: 18px;
@@ -44,26 +69,9 @@ nav ul li a {
     transition: 0.3s;
 }
 
-nav ul li a:hover {
+.menu li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
-}
-
-header::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.1;
-    background-image: url('textura.png');
-    pointer-events: none;
-}
-
-header img.logo {
-    width: 120px; 
-    height: auto;
 }
 
 #hero {
@@ -326,6 +334,32 @@ footer {
 
 /*media nova*/
 @media (max-width: 768px) {
+
+    header > h1 {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.9);
+        width: 200px;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu.ativo {
+        display: flex !important;
+    }
+
+
     /*Sobre*/
     #sobre {
         padding: 40px 15px;
