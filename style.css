@@ -289,6 +289,16 @@ nav {
     font-family: 'Poppins', sans-serif;
 }
 
+
+.conteudo-contato h1 {
+    font-size: 2.5em; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+.conteudo-contato p {
+    font-size: 1.2em; 
+    margin-bottom: 30px; 
+}
 .contact h1 {
     font-size: 2.5em; 
     font-weight: bold; 
