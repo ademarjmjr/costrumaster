@@ -422,6 +422,10 @@ footer {
     #sobre, #depoimentos, #contato {
         width: 86%;
     }
+
+    .conteudo-contato h1 {
+        font-size: 9vw;
+    }
 }
 
 
