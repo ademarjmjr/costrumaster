@@ -125,7 +125,7 @@ ul li {
 
 /* Rodapé */
 footer {
-    background: var(--cor-primaria);
+    background: linear-gradient(to right, #243447, #0e1724);
     color: white;
     text-align: center;
     padding: calc(var(--espacamento) * 1.5);
