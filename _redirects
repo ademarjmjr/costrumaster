@@ -1,1 +1,7 @@
-/servicos  /servicos.html  200
+# Redirecionamentos principais do site Construmaster-PVH
+
+# Página de serviços: consolidar em /servicos
+/servicos.html   /servicos   301
+
+# Opcional: se alguém acessar a home com index.html, redirecionar para /
+/index.html      /           301

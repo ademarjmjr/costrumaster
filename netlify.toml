@@ -1,4 +1,52 @@
+# netlify.toml otimizado para SEO e performance
+
+[build]
+  publish = "public"   # ajuste conforme a pasta onde ficam seus arquivos finais
+  command = "npm run build"  # ou o comando que você usa para gerar o site
+
+# Cabeçalhos para o sitemap
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]
-  Content-Type = "application/xml"
+    Content-Type = "application/xml"
+    Cache-Control = "public, max-age=86400" # cache de 1 dia
+
+# Cabeçalhos para páginas HTML
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Content-Type = "text/html; charset=UTF-8"
+    Cache-Control = "public, max-age=3600" # cache de 1 hora
+
+# Cabeçalhos para CSS
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Content-Type = "text/css"
+    Cache-Control = "public, max-age=604800" # cache de 7 dias
+
+# Cabeçalhos para JS
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+    Cache-Control = "public, max-age=604800" # cache de 7 dias
+
+# Cabeçalhos para imagens
+[[headers]]
+  for = "/*.{png,jpg,jpeg,gif,svg,webp}"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000" # cache de 30 dias
+
+# Redirecionamentos (caso queira centralizar aqui também)
+[[redirects]]
+  from = "/servicos.html"
+  to = "/servicos"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
