@@ -1,0 +1,163 @@
+:root {
+    --dourado: #d4af37;
+    --dourado-dark: #b8962e;
+    --preto: #243447;
+    --gelo: #f5f5f5;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--gelo);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Configuração do Menu */
+.menu-principal {
+    background-color: #243447; /* O azul que você escolheu */
+    padding: 15px 0;
+    position: sticky; /* Faz o menu ficar parado no topo ao rolar a página */
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #d4af37;
+}
+
+.container-menu {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #d4af37;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.menu-principal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-principal ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.menu-principal ul li a:hover {
+    color: #d4af37; /* Muda para dourado ao passar o mouse */
+}
+
+/* Header com Imagem de Fundo */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1651213084058-c3420ea21852?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjMzfHxwaXNjaW5hfGVufDB8fDB8fHwws');
+    background-size: cover;
+    background-position: center;
+    /*height: 60vh;*/
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid var(--dourado);
+}
+
+.hero h1 {
+    color: var(--dourado);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Layout Responsivo */
+.conteudo {
+    padding: 50px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap; /* Para funcionar no celular */
+}
+
+.texto { flex: 1; min-width: 300px; }
+
+.imagem-destaque img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border: 3px solid var(--dourado);
+}
+
+h2 {
+    color: var(--preto);
+    border-left: 5px solid var(--dourado);
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+/* Lista e Botão */
+.lista-check {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-check li {
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.botao {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 18px 35px;
+    background-color: var(--dourado);
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px; /* Botão arredondado é mais moderno */
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+}
+
+.botao:hover {
+    background-color: var(--dourado-dark);
+    transform: translateY(-3px);
+}
+
+footer {
+    background-color: var(--preto);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+/* Responsividade para Celular */
+@media (max-width: 600px) {
+    .container-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu-principal ul {
+        gap: 15px;
+    }
+}
