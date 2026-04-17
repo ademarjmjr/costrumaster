@@ -38,16 +38,3 @@
   for = "/*.{png,jpg,jpeg,gif,svg,webp}"
   [headers.values]
     Cache-Control = "public, max-age=2592000" # cache de 30 dias
-
-# Redirecionamentos (caso queira centralizar aqui também)
-[[redirects]]
-  from = "/servicos.html"
-  to = "/servicos"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/index.html"
-  to = "/"
-  status = 301
-  force = true
