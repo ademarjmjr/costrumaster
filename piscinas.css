@@ -200,6 +200,7 @@ h2 {
 }
 
 .cta-img {
+    width: 50%;
     max-width: 350px;
     height: auto;
     border-radius: 8px;
