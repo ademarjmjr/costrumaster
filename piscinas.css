@@ -236,4 +236,7 @@ footer {
     .menu-principal ul {
         gap: 15px;
     }
+    .cta-img {
+        width: 80%;
+    }
 }
