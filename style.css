@@ -420,6 +420,7 @@ footer {
 
     /*Contato*/
     #contato {
+        background-color: #243447; 
         padding: 40px 15px;
     }
 
@@ -440,8 +441,13 @@ footer {
 
 @media (max-width: 450px) {
 
-    #sobre, #depoimentos, #contato {
+    #sobre, #depoimentos{
         width: 86%;
+    }
+
+    #contato {
+        width: 86%;
+        background-color: #243447; 
     }
 
     .conteudo-contato h1 {
