@@ -110,6 +110,338 @@ section img {
     margin-right: 10px;
 }
 
+/* Container Geral */
+.azulejista-porcelanato {
+  background-color: #f8fafc;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.container-azulejista {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+.azulejista-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.badge-tag {
+  background-color: #e0f2fe;
+  color: #0284c7;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.azulejista-header h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.azulejista-header .subtitulo {
+  font-size: 1.1rem;
+  color: #475569;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Banner Promocional Valência */
+.banner-promocional {
+  background: #ffffff;
+  border: 2px dashed #0284c7;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.08);
+}
+
+.promo-tag {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.banner-promocional h3 {
+  color: #0f172a;
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.banner-promocional p {
+  color: #334155;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Grid de Diferenciais */
+.azulejista-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.card-diferencial {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-diferencial:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.card-diferencial h3 {
+  font-size: 1.2rem;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.card-diferencial p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* Callout / Chamada no Rodapé da Seção */
+.azulejista-callout {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  padding: 35px 30px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.callout-content h3 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.callout-content p {
+  font-size: 0.98rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1eb954;
+}
+
+/* Container Geral */
+.eletricista-servicos {
+  background-color: #f8fafc;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.container-eletricista {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+.eletricista-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.badge-tag {
+  background-color: #e0f2fe;
+  color: #0284c7;
+  font-size: 0.875rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.eletricista-header h2 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.eletricista-header .subtitulo {
+  font-size: 1.1rem;
+  color: #475569;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* Banner Promocional Valência */
+.banner-promocional {
+  background: #ffffff;
+  border: 2px dashed #0284c7;
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin-bottom: 40px;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.08);
+}
+
+.promo-tag {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.banner-promocional h3 {
+  color: #0f172a;
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.banner-promocional p {
+  color: #334155;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Grid de Diferenciais */
+.eletricista-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.card-diferencial {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-diferencial:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.card-diferencial h3 {
+  font-size: 1.2rem;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.card-diferencial p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* Callout / Rodapé da Seção */
+.eletricista-callout {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  padding: 35px 30px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.callout-content h3 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.callout-content p {
+  font-size: 0.98rem;
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.btn-whatsapp {
+  background-color: #25d366;
+  color: #ffffff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1eb954;
+}
+
 /* Botões */
 .cta-container {
     text-align: center;
@@ -168,4 +500,36 @@ footer strong { color: var(--cor-secundaria); }
     section { margin: 15px; padding: 20px; }
     header h1 { font-size: 1.5rem; }
     nav ul li a { font-size: 0.8rem; }
+}
+
+/* Ajuste Responsivo */
+@media (max-width: 768px) {
+  .azulejista-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .azulejista-callout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn-whatsapp {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Ajustes para Eletricista */
+  .eletricista-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .eletricista-callout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .btn-whatsapp {
+    width: 100%;
+    justify-content: center;
+  }
 }
